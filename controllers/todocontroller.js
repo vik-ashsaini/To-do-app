@@ -3,8 +3,8 @@ var mongoose = require('mongoose');
 
 
 //connect to database 
-mongoose.connect('mongodb+srv://vikash:vikash@cluster0-56vyj.mongodb.net/test?retryWrites=true&w=majority');
-//mongodb+srv://vikash:<password>@cluster0-56vyj.mongodb.net/test?retryWrites=true&w=majority
+mongoose.connect('link of mongodb altas');
+//
 
 //create a schema - this is like a blueprint 
 var todoschema = new mongoose.Schema({
